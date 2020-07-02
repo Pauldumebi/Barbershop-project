@@ -27,19 +27,19 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="#" style="color: #E13B63;">HOME <span class="sr-only">(current)</span></a>
+                     <a class="nav-link" href="">HOME <span class="sr-only" id="#carouselV5"></span></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#About">ABOUT</a>
+                     <a class="nav-link" href="#About" id="About-scroll">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Services">SERVICES</a>
+                     <a class="nav-link" href="#Services" id="Services-scroll">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Pricing">PRICE</a>
+                     <a class="nav-link" href="#Pricing" id="Pricing-scroll">PRICE</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Contact">CONTACT</a>
+                     <a class="nav-link" href="#Contact" id="Contact-scroll">CONTACT</a>
                   </li>
                </ul>
                <form class="form-inline my-2 my-lg-0">
@@ -79,27 +79,25 @@
    </figure>
    <!--Carousel section ends here-->
 
-   <div class="container">
+   <div class="container" id="About">
       <!--About Us section starts here-->
-      <section id="About">
-         <div class="container About-us-container">
-            <div class="row">
-               <div class="col-sm">
-                  <img src="images/Group 1.png" alt="Group-1">
-               </div>
-               <div class="col-sm About-us-section">
-                  <h2>ABOUT US</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora quidem at? Quasi quas a beatae modi, inventore deserunt, repellendus cupiditate quam earum provident esse dolorum quia perferendis aliquam dolor commodi dignissimos et eaque architecto minima autem sequi vitae quidem?</p>
-                  <button id="Read-more-button">READ MORE</button>
-               </div>
+      <div class="container About-us-container">
+         <div class="row">
+            <div class="col-sm">
+               <img src="images/Group 1.png" alt="Group-1">
             </div>
-      </section>
+            <div class="col-sm About-us-section">
+               <h2>ABOUT US</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora quidem at? Quasi quas a beatae modi, inventore deserunt, repellendus cupiditate quam earum provident esse dolorum quia perferendis aliquam dolor commodi dignissimos et eaque architecto minima autem sequi vitae quidem?</p>
+               <button id="Read-more-button">READ MORE</button>
+            </div>
+         </div>
+      </div>
    </div>
       <!--About Us section ends here-->
-
-   <div class="Our-best-services-bg">
-      <div class="container">
-         <section id="Services">
+   <section id="Services">
+      <div class="Our-best-services-bg" >
+         <div class="container">
             <!--Our Best Services section starts here-->
             <div class="Our-best-services">
                <h2 class="Our-best-services-header text-center">OUR BEST SERVICES</h2>
@@ -127,14 +125,14 @@
                   </div>
                </div>
             </div>
-         </section>
+         </div>
       </div>
-   </div>
+   </section>
       <!--Our Best Services section ends here-->
 
       <!--Pricing section starts here-->
-   <div class="container">
-      <section id="Pricing">
+   <section id="Pricing">
+      <div class="container">
          <div class="pricing-section">
             <h2 class="text-center pricing-header">PRICING</h2>
             <div class="card-deck">
@@ -160,8 +158,8 @@
                </div>
             </div>
          </div>
-      </section>
-   </div>
+      </div>
+   </section>
       <!--Pricing section ends here-->
 
       <!--Our Creative Barber Section starts here-->
@@ -214,8 +212,8 @@
          <!--Our Creative Barber Section starts here-->
 
       <!--Get an Appointment Section starts here-->
-   <div class="container">
-      <section id="Contact">
+   <section  id="Contact">
+      <div class="container">
          <h2 class="text-center Get-appointment">GET AN APPOINTMENT</h2>
          <div class="row">
             <div class="col-sm Get-appointment-form">
@@ -240,8 +238,9 @@
             <div class="col-sm Get-appointment-img">
                <img src="images/APPOINTMENT CONTAINER.png" alt="Appointment-container">
             </div>
-      </section>
-   </div>
+         </div>
+      </div>
+   </section>
       <!--Get an Appointment Section starts here-->
 
       <!--Reviews Section starts here-->
@@ -263,8 +262,8 @@
       <!--Reviews Section starts here-->
 
       <!--Contact Us Section starts here-->
-   <div class="container">
-      <section class="Contact-Us">
+   <div class="Contact-Us">
+      <div class="container">
          <h2 class="text-center Contact-Us-header">CONTACT US</h2>
          <div class="row">
             <div class="col-sm Get-appointment-form">
@@ -286,9 +285,14 @@
                <img src="images/Rectangle 38.png" alt="Rectangle-38">
             </div>
          </div>
-      </section>
+      </div>
       <!--Contact Us Section starts here-->
-   </div>
+   </section>
+
+   <button style="color: black;" onclick="topFunction()" id="myBtn" title="Go to top"><i
+      class="fas fa-arrow-up"></i></button>
+
+
    <footer>
       <div class="navbar-bg">
          <div class="container footer-links">
@@ -324,10 +328,11 @@
             </div>
          </div> 
          <p class="copyright text-center container">COPYRIGHT &copy; <span style="color: #E13B63;">DECABS BARBER</span> | 2020 | ALL RIGHTS RESERVED </p>
-         <button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+         <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"></button> -->
       </div>  
    </footer>
   
+   <script src="./app.js"></script>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script

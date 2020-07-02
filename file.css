@@ -11,10 +11,18 @@
    height: 100vh;
    scroll-behavior: smooth;
  }
+ .navbar-item{
+   transition:500ms ease;
+   /* background:transparent; */
+ }
+ .navbar-item.scrolled{
+ 
+ }
+ .active{
+   color: #E13B63 !important;
+ }
 header {
-   height: px;
    position: fixed;
-   float: left;
    width: 100%;
    z-index: 1;
 }
