@@ -37,11 +37,30 @@ h2 {
    font-weight: 600;
    font-size: 2.5rem;
 }
-#Africa-top-barbershop {
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.image-wrapper figcaption {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+/* #Africa-top-barbershop {
    left: 25rem;
    top: 17rem;
    position: absolute;
-}
+} */
 #Africa-top-barbershop h2 {
    font-family: "Poppins";
    font-weight: bold;
@@ -65,11 +84,7 @@ h2 {
 .About-us-section >p {
    margin-top: 2rem;
 }
-/* .About-us img {
-   width: 32.399375rem;
-   height: 23.02125rem;
-   border-radius: 3.68731px 36.8731px 36.8731px 36.8731px;
-} */
+
 #Read-more-button {
    width: 16.125rem;
    height: 5rem;
@@ -245,10 +260,7 @@ h2 {
 
 @media screen and (max-width: 414px) {
    #Africa-top-barbershop {
-      position: absolute;
-      left: 0rem;
-      top: 7rem;
-      color: white;
+      margin: 0 0 0 -6rem;
    }
    .About-us-section {
       margin-left: 0rem;
@@ -285,3 +297,5 @@ h2 {
       order: 1;
    }
 }
+
+
