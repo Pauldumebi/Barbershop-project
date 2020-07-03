@@ -18,8 +18,8 @@
    <header>
       <div class="navbar-bg">
          <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark" id="navbar-scroll">
-               <img src="../images/Logo.png" alt="logo">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+               <img src="images/Logo.png" alt="logo">
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon" id="nav-icon"></span>
                </button>
@@ -27,19 +27,19 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="">HOME <span class="sr-only" id="#carouselV5"></span></a>
+                     <a class="nav-link" href="#" style="color: #E13B63;">HOME <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#About" id="About-scroll">ABOUT</a>
+                     <a class="nav-link" href="#About">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Services" id="Services-scroll">SERVICES</a>
+                     <a class="nav-link" href="#Services">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Pricing" id="Pricing-scroll">PRICE</a>
+                     <a class="nav-link" href="#Pricing">PRICE</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#Contact" id="Contact-scroll">CONTACT</a>
+                     <a class="nav-link" href="#Contact">CONTACT</a>
                   </li>
                </ul>
                <form class="form-inline my-2 my-lg-0">
@@ -79,25 +79,27 @@
    </figure>
    <!--Carousel section ends here-->
 
-   <div class="container" id="About">
+   <div class="container">
       <!--About Us section starts here-->
-      <div class="container About-us-container">
-         <div class="row">
-            <div class="col-sm">
-               <img src="images/Group 1.png" alt="Group-1">
+      <section id="About">
+         <div class="container About-us-container">
+            <div class="row">
+               <div class="col-sm">
+                  <img src="images/Group 1.png" alt="Group-1">
+               </div>
+               <div class="col-sm About-us-section">
+                  <h2>ABOUT US</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora quidem at? Quasi quas a beatae modi, inventore deserunt, repellendus cupiditate quam earum provident esse dolorum quia perferendis aliquam dolor commodi dignissimos et eaque architecto minima autem sequi vitae quidem?</p>
+                  <button id="Read-more-button">READ MORE</button>
+               </div>
             </div>
-            <div class="col-sm About-us-section">
-               <h2>ABOUT US</h2>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora quidem at? Quasi quas a beatae modi, inventore deserunt, repellendus cupiditate quam earum provident esse dolorum quia perferendis aliquam dolor commodi dignissimos et eaque architecto minima autem sequi vitae quidem?</p>
-               <button id="Read-more-button">READ MORE</button>
-            </div>
-         </div>
-      </div>
+      </section>
    </div>
       <!--About Us section ends here-->
-   <section id="Services">
-      <div class="Our-best-services-bg" >
-         <div class="container">
+
+   <div class="Our-best-services-bg">
+      <div class="container">
+         <section id="Services">
             <!--Our Best Services section starts here-->
             <div class="Our-best-services">
                <h2 class="Our-best-services-header text-center">OUR BEST SERVICES</h2>
@@ -125,14 +127,14 @@
                   </div>
                </div>
             </div>
-         </div>
+         </section>
       </div>
-   </section>
+   </div>
       <!--Our Best Services section ends here-->
 
       <!--Pricing section starts here-->
-   <section id="Pricing">
-      <div class="container">
+   <div class="container">
+      <section id="Pricing">
          <div class="pricing-section">
             <h2 class="text-center pricing-header">PRICING</h2>
             <div class="card-deck">
@@ -158,8 +160,8 @@
                </div>
             </div>
          </div>
-      </div>
-   </section>
+      </section>
+   </div>
       <!--Pricing section ends here-->
 
       <!--Our Creative Barber Section starts here-->
@@ -174,9 +176,9 @@
                      <div class="card-body text-center">
                         <h5 class="creative-barber-body-header">Brand Phillips</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe dolorem</p>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram fa-social"></a>
+                        <a href="#" class="fa fa-twitter fa-social"></a>
+                        <a href="#" class="fa fa-facebook fa-social"></a>
                      </div>
                   </div>
                   <div class="card" style="border-radius: 10px;">
@@ -184,9 +186,9 @@
                      <div class="card-body text-center">
                         <h5 class="creative-barber-body-header">Sharan Jamin</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe dolorem</p>
-                        <a href="#"> <i class="fa fa-instagram"></i> </a>
-                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                        <a href="#" class="fa fa-instagram fa-social"></a>
+                        <a href="#" class="fa fa-twitter fa-social"></a>
+                        <a href="#" class="fa fa-facebook fa-social"></a>
                      </div>
                   </div>
                   <div class="card" style="border-radius: 10px;">
@@ -194,9 +196,9 @@
                      <div class="card-body text-center">
                         <h5 class="creative-barber-body-header">Fahad Khalid</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe dolorem</p>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram fa-social"></a>
+                        <a href="#" class="fa fa-twitter fa-social"></a>
+                        <a href="#" class="fa fa-facebook fa-social"></a>
                      </div>
                </div>
                   <!-- The dots/circles -->
@@ -212,8 +214,8 @@
          <!--Our Creative Barber Section starts here-->
 
       <!--Get an Appointment Section starts here-->
-   <section  id="Contact">
-      <div class="container">
+   <div class="container">
+      <section id="Contact">
          <h2 class="text-center Get-appointment">GET AN APPOINTMENT</h2>
          <div class="row">
             <div class="col-sm Get-appointment-form">
@@ -238,9 +240,8 @@
             <div class="col-sm Get-appointment-img">
                <img src="images/APPOINTMENT CONTAINER.png" alt="Appointment-container">
             </div>
-         </div>
-      </div>
-   </section>
+      </section>
+   </div>
       <!--Get an Appointment Section starts here-->
 
       <!--Reviews Section starts here-->
@@ -262,8 +263,8 @@
       <!--Reviews Section starts here-->
 
       <!--Contact Us Section starts here-->
-   <div class="Contact-Us">
-      <div class="container">
+   <div class="container">
+      <section class="Contact-Us">
          <h2 class="text-center Contact-Us-header">CONTACT US</h2>
          <div class="row">
             <div class="col-sm Get-appointment-form">
@@ -278,21 +279,16 @@
                      <label for="Message">Message</label>
                      <textarea class="form-control" rows="3" style="height: 10rem;"></textarea>
                   </div>
-                  <button type="submit" class="btn appointment-submitBtn btn-button">SUBMIT</button>
+                  <button type="submit" class="btn appointment-submitBtn btn-button">Submit</button>
                </form>
             </div>
             <div class="col-sm form-img Get-appointment-img">
                <img src="images/Rectangle 38.png" alt="Rectangle-38">
             </div>
          </div>
-      </div>
+      </section>
       <!--Contact Us Section starts here-->
-   </section>
-
-   <button style="color: black;" onclick="topFunction()" id="myBtn" title="Go to top"><i
-      class="fas fa-arrow-up"></i></button>
-
-
+   </div>
    <footer>
       <div class="navbar-bg">
          <div class="container footer-links">
@@ -310,9 +306,9 @@
                      <div class="social-media-links">
                         <div>
                            <p class="social-media-header">SOCIAL MEDIA LINKS</p>
-                           <a href="#" class="social-media-icons fa fa-instagram"></a>
-                           <a href="#" class="social-media-icons fa fa-twitter"></a>
-                           <a href="#" class="social-media-icons fa fa-facebook"></a>
+                           <a href="#" class="social-media-icons fa fa-instagram fa-social"></a>
+                           <a href="#" class="social-media-icons fa fa-twitter fa-social"></a>
+                           <a href="#" class="social-media-icons fa fa-facebook fa-social"></a>
                         </div>
                         <div>
                            <p class="social-media-header">OPENING HOURS</p>
@@ -328,11 +324,12 @@
             </div>
          </div> 
          <p class="copyright text-center container">COPYRIGHT &copy; <span style="color: #E13B63;">DECABS BARBER</span> | 2020 | ALL RIGHTS RESERVED </p>
-         <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"></button> -->
+
+         <a style="color: white;" onclick="topFunction()" id="" title="Go to top"><i class="fa myBtn" style="font-size:24px">&#xf062;</i></a>
       </div>  
    </footer>
   
-   <script src="./app.js"></script>
+
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script
